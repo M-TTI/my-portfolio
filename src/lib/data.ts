@@ -1,17 +1,19 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Martin Bonetti",
+  title: "Game Developer",
+  location: "Lyon - France",
+  email: "martin.bonetti.dev@gmail.com",
+  github: "https://github.com/M-TTI",
+  linkedin: "https://www.linkedin.com/in/martin-bonetti-240b34290/",
+  yapping: "xdd",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "Ice Development",
+    location: "Lyon, France",
+    position: "Stage Développeur C#",
+    period: "Jan 2024 - Fev 2024",
     achievements: [
       "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
       "Built a comprehensive admin panel for managing content, user data, and analytics.",
@@ -60,24 +62,29 @@ export const education = [
 ];
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
+    "C#",
+    "C/C++",
     "Python",
-    "C++",
+    "PHP",
     "Java",
-    "Solidity",
+  ],
+  backendDevelopment: [
+    ".NET",
+    ".NET MAUI",
+    "ASP.NET",
+    "Node.js",
   ],
   frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
+    "Three.js",
     "Tailwind CSS",
     "HTML",
     "CSS",
+    "WPF",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
+  databaseAndStorage: [
+    "mySQL",
+    "PostgreSQL",
+  ],
   cloudAndDevOps: ["AWS"],
   toolsAndServices: [
     "Clerk (Auth)",

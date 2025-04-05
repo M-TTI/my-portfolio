@@ -38,17 +38,23 @@ export const workExperience = [
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
+    institution: "Business School by CSND",
+    location: "Limas (69), France",
+    degree: "BTS SIO option SLAM",
+    period: "sep 2023 - Jun 2025",
     achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+      ""
     ],
   },
+  {
+    institution: "IUT Clermont-Ferrand",
+    location: "Clermont-Ferrand (63), France",
+    degree: "1ère année BUT Informatique",
+    period: "sep 2022 - Jun 2023",
+    achievements: [
+      ""
+    ],
+  }
 ];
 export const skills = {
   programmingLanguages: [
@@ -77,13 +83,10 @@ export const skills = {
   ],
   cloudAndDevOps: ["AWS"],
   toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+    "Git",
+    "Github",
+    "Docker",
+
   ],
 };
 

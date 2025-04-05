@@ -13,7 +13,7 @@ export const workExperience = [
     company: "Ice Development",
     location: "Lyon, France",
     position: "Stage Développeur C#",
-    period: "Jan 2024 - Fev 2024",
+    period: "Jan 2025 - Fev 2025",
     achievements: [
       "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
       "Built a comprehensive admin panel for managing content, user data, and analytics.",
@@ -25,23 +25,13 @@ export const workExperience = [
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "New Aircraft Solutions",
+    location: "Toulouse, France",
+    position: "Stage Tecnicien Réseaux",
+    period: "Mai 2024 - Juin 2024",
     achievements: [
       "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
       "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
-    ],
-  },
-  {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
-    achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
     ],
   },
 ];

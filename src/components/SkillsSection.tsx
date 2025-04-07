@@ -58,11 +58,11 @@ export default function SkillsSection() {
         </MotionWrapper>
 
         <motion.div
-          className="space-y-6"
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-50px" }}
+            className="space-y-6"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{once: true, margin: "-50px"}}
         >
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
@@ -71,20 +71,7 @@ export default function SkillsSection() {
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                 {skills.programmingLanguages.map((skill, index) => (
-                  <SkillTag key={skill} skill={skill} index={index} />
-                ))}
-              </div>
-            </GlassCard>
-          </motion.div>
-
-          <motion.div variants={skillCategoryVariants}>
-            <GlassCard className="p-4">
-              <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
-                <span className="mr-2 text-xl">🎨</span> Technologies Frontend
-              </h3>
-              <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                {skills.frontendDevelopment.map((skill, index) => (
-                  <SkillTag key={skill} skill={skill} index={index} />
+                    <SkillTag key={skill} skill={skill} index={index}/>
                 ))}
               </div>
             </GlassCard>
@@ -97,7 +84,20 @@ export default function SkillsSection() {
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                 {skills.backendDevelopment.map((skill, index) => (
-                  <SkillTag key={skill} skill={skill} index={index} />
+                    <SkillTag key={skill} skill={skill} index={index}/>
+                ))}
+              </div>
+            </GlassCard>
+          </motion.div>
+
+          <motion.div variants={skillCategoryVariants}>
+            <GlassCard className="p-4">
+              <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
+                <span className="mr-2 text-xl">🎨</span> Technologies Frontend
+              </h3>
+              <div className="flex flex-wrap gap-2 justify-center md:justify-start">
+                {skills.frontendDevelopment.map((skill, index) => (
+                    <SkillTag key={skill} skill={skill} index={index}/>
                 ))}
               </div>
             </GlassCard>
@@ -110,7 +110,7 @@ export default function SkillsSection() {
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                 {skills.databaseAndStorage.map((skill, index) => (
-                  <SkillTag key={skill} skill={skill} index={index} />
+                    <SkillTag key={skill} skill={skill} index={index}/>
                 ))}
               </div>
             </GlassCard>
@@ -123,7 +123,7 @@ export default function SkillsSection() {
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                 {skills.cloudAndDevOps.map((skill, index) => (
-                  <SkillTag key={skill} skill={skill} index={index} />
+                    <SkillTag key={skill} skill={skill} index={index}/>
                 ))}
               </div>
             </GlassCard>
@@ -136,7 +136,7 @@ export default function SkillsSection() {
               </h3>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                 {skills.toolsAndServices.map((skill, index) => (
-                  <SkillTag key={skill} skill={skill} index={index} />
+                    <SkillTag key={skill} skill={skill} index={index}/>
                 ))}
               </div>
             </GlassCard>

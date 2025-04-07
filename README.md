@@ -1,22 +1,6 @@
-# Modern Portfolio Template
+# This portfolio is a fork of [rishikesh2003's template](https://github.com/rishikesh2003/my-portfolio)
 
-A sleek, responsive portfolio website built with Astro, React, and Tailwind CSS, featuring modern animations and glassmorphism effects.
-
-![Portfolio Screenshot](https://github.com/user-attachments/assets/4f2466f1-1ebe-4cbe-857c-40eccd63c384)
-
-## Features
-
-- ✨ **Modern Design**: Clean, professional layout with glassmorphism effects
-- 🎨 **Animations**: Smooth transitions and interactive elements using Framer Motion
-- 🌙 **Dark/Light Mode**: Seamless theme switching with system preference detection
-- 📱 **Fully Responsive**: Optimized for all devices and screen sizes
-- 🚀 **Performance Focused**: Built with Astro for excellent loading speeds
-- 🧩 **Modular Structure**: Easy to customize and extend
-- 🔍 **SEO Friendly**: Structured content for better search engine visibility
-
-## Demo
-
-[Live Demo](https://rishilol.vercel.app/)
+I mainly reordered and translated the different categories in french (and put my own data of course)
 
 ## Getting Started
 

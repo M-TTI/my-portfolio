@@ -139,10 +139,20 @@ export const awards = [
   },
 ];
 
-export const techWatchTopics = [
-  "Intelligence artificielle et machine learning",
-  "Frameworks modernes comme Next.js et Astro",
-  "Sécurité informatique et bonnes pratiques",
-  "Nouvelles tendances en développement front-end",
-  "Outils DevOps et automatisation",
+export const techWatchDetails = [
+  {
+    title: "Qu'est-ce qu'une veille technologique ?",
+    content:
+        "La veille technologique consiste à surveiller les évolutions, innovations et tendances dans le domaine des technologies afin de rester informé et compétitif.",
+  },
+  {
+    title: "Mes sujets de veille",
+    content:
+        "Je m'intéresse à l'intelligence artificielle, aux frameworks modernes comme Next.js, à la sécurité informatique, aux tendances front-end, et aux outils DevOps.",
+  },
+  {
+    title: "Comment j'effectue ma veille",
+    content:
+        "J'utilise des outils comme Feedly, Twitter, et des newsletters spécialisées. Je participe également à des conférences et webinaires pour échanger avec des experts.",
+  },
 ];

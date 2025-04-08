@@ -1,6 +1,6 @@
 import React from "react";
 import MotionWrapper from "./MotionWrapper";
-import { techWatchTopics } from "@/lib/data";
+import { techWatchDetails } from "@/lib/data";
 
 export default function TechWatchSection() {
     return (
@@ -14,11 +14,16 @@ export default function TechWatchSection() {
                         🌐 Veille Technologique
                     </h2>
                 </MotionWrapper>
-                <div className="space-y-4">
-                    {techWatchTopics.map((topic, index) => (
+                <div className="space-y-8">
+                    {techWatchDetails.map((section, index) => (
                         <MotionWrapper key={index} delay={index * 0.1}>
                             <div className="p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-purple-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm">
-                                <p className="text-sm text-muted-foreground">{topic}</p>
+                                <h3 className="text-lg font-semibold mb-2">
+                                    {section.title}
+                                </h3>
+                                <p className="text-sm text-muted-foreground">
+                                    {section.content}
+                                </p>
                             </div>
                         </MotionWrapper>
                     ))}

@@ -15,13 +15,11 @@ export const workExperience = [
     position: "Stage Développeur C#",
     period: "Jan 2025 - Fev 2025",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "Développement d'une application client lourd type Progiciel de Gestion Intégré (PGI) en .NET",
+      "Mise a niveau d'une application mobile Xamarin vers .NET MAUI",
+      "Développement d'une API pour un webservice en ASP.NET",
+      "Développement d'une API Rest en PHP Natif pour un besoin interne",
+      "Ajout de commentaires, de documentation et restructuration de code sur différents projets existants",
     ],
   },
   {
@@ -30,8 +28,10 @@ export const workExperience = [
     position: "Stage Tecnicien Réseaux",
     period: "Mai 2024 - Juin 2024",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+      "Installation d'une antenne starlink et mise en place d'un réseau local chez un client",
+      "Nombreuse interventions de maintenance réseau pour des clients, dont certaines en autonomie complète",
+      "Mise en place de la DMZ et de la sécurité réseau en interne après une panne",
+      "Réalisation d'une maquette pour un site marchand en interne",
     ],
   },
 ];
@@ -137,4 +137,12 @@ export const awards = [
     type: "National",
     position: "score moyen 98%",
   },
+];
+
+export const techWatchTopics = [
+  "Intelligence artificielle et machine learning",
+  "Frameworks modernes comme Next.js et Astro",
+  "Sécurité informatique et bonnes pratiques",
+  "Nouvelles tendances en développement front-end",
+  "Outils DevOps et automatisation",
 ];

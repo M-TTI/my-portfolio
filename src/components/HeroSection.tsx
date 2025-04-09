@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
+import {Mail, Github, MapPin, Linkedin, File ,Icon} from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -52,62 +52,75 @@ export default function HeroSection() {
             </motion.p>
 
             <motion.div
-              className="flex flex-col gap-2 items-center md:items-start"
-              variants={containerVariants}
+                className="flex flex-col gap-2 items-center md:items-start"
+                variants={containerVariants}
             >
               <motion.div
-                className="flex items-center text-sm text-muted-foreground"
-                variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                  className="flex items-center text-sm text-muted-foreground"
+                  variants={childVariants}
+                  whileHover={{scale: 1.05, color: "#4b5563"}}
               >
-                <MapPin className="h-4 w-4 mr-2" />
+                <MapPin className="h-4 w-4 mr-2"/>
                 📍 {personalInfo.location}
               </motion.div>
 
               <motion.a
-                href={`mailto:${personalInfo.email}`}
-                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
-                variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                  href={`mailto:${personalInfo.email}`}
+                  className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  variants={childVariants}
+                  whileHover={{scale: 1.05, color: "#4b5563"}}
               >
-                <Mail className="h-4 w-4 mr-2" />
+                <Mail className="h-4 w-4 mr-2"/>
                 ✉️ {personalInfo.email}
               </motion.a>
 
               <motion.a
-                href={personalInfo.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
-                variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                  href={personalInfo.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  variants={childVariants}
+                  whileHover={{scale: 1.05, color: "#4b5563"}}
               >
-                <Github className="h-4 w-4 mr-2" />
+                <Github className="h-4 w-4 mr-2"/>
                 🌟 GitHub
               </motion.a>
 
               <motion.a
-                href={personalInfo.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
-                variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                  href={personalInfo.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  variants={childVariants}
+                  whileHover={{scale: 1.05, color: "#4b5563"}}
               >
-                <Linkedin className="h-4 w-4 mr-2" />
+                <Linkedin className="h-4 w-4 mr-2"/>
                 🔗 LinkedIn
+              </motion.a>
+
+              <motion.a
+                  href={"/martin_bonetti_cv.pdf"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                  variants={childVariants}
+                  whileHover={{scale: 1.05, color: "#4b5563"}}
+              >
+                <File className="h-4 w-4 mr-2"/>
+                📄 Télécharger mon CV
               </motion.a>
             </motion.div>
           </div>
 
           <motion.div
-            className="mt-6 md:mt-0 flex justify-center"
-            variants={childVariants}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+              className="mt-6 md:mt-0 flex justify-center"
+              variants={childVariants}
+              whileHover={{scale: 1.05}}
+              whileTap={{scale: 0.95}}
           >
             <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+              <div
+                  className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
                 src="/profile.jpg"
                 alt="Profile"

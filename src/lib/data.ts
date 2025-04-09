@@ -122,6 +122,7 @@ export const awards = [
     issuer: "Cisco Academy",
     date: "Avril 2025",
     type: "International",
+    file: "/attestation_secnum.pdf",
   },
   {
     name: "PIX",
@@ -129,6 +130,7 @@ export const awards = [
     date: "Decembre 2024",
     type: "National",
     position: "586 points",
+    file: "/attestation_secnum.pdf",
   },
   {
     name: "ANSSI SECNUM",
@@ -136,6 +138,7 @@ export const awards = [
     date: "Novembre 2024",
     type: "National",
     position: "score moyen 98%",
+    file: "/attestation_secnum.pdf",
   },
 ];
 

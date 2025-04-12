@@ -1,6 +1,6 @@
 import { workExperience } from "@/lib/data";
 import TimelineItem from "./TimelineItem";
-import { Briefcase } from "lucide-react";
+import { Briefcase, Download } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -62,6 +62,19 @@ export default function ExperienceSection() {
                     </motion.li>
                   ))}
                 </ul>
+                {job.certificate && (
+                    <div
+                        className="mt-4 backdrop-filter">
+                      <a
+                          href={job.certificate}
+                          download
+                          className="flex items-center text-sm text-purple-500 hover:underline"
+                      >
+                        <Download className="h-4 w-4 mr-2"/>
+                        Télécharger l'attestation
+                      </a>
+                    </div>
+                )}
               </motion.div>
             </TimelineItem>
           ))}

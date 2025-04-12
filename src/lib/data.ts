@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "martin.bonetti.dev@gmail.com",
   github: "https://github.com/M-TTI",
   linkedin: "https://www.linkedin.com/in/martin-bonetti-240b34290/",
-  yapping: "xdd",
+  yapping: "Étudiant en BTS SIO option SLAM (Solutions Logicielles et Applications Métiers), et fan d'informatique et de jeux vidéo, Je me passionne pour le développement de jeux, et suis également très intéressé par les rouages du back-end. Mon objectif ? Devenir Game Developer en alliant créativité et expertise technique. À travers ce portfolio, découvrez mes projets, mes compétences et ma soif d'apprendre, entre lignes de code et univers virtuels. Bienvenue dans mon parcours !",
 };
 
 export const workExperience = [
@@ -21,6 +21,7 @@ export const workExperience = [
       "Développement d'une API Rest en PHP Natif pour un besoin interne",
       "Ajout de commentaires, de documentation et restructuration de code sur différents projets existants",
     ],
+    certificate: "/certificates/attestation_stage_2.pdf",
   },
   {
     company: "New Aircraft Solutions",
@@ -33,6 +34,7 @@ export const workExperience = [
       "Mise en place de la DMZ et de la sécurité réseau en interne après une panne",
       "Réalisation d'une maquette pour un site marchand en interne",
     ],
+    certificate: "/certificates/attestation_stage_1.pdf",
   },
 ];
 
@@ -79,6 +81,10 @@ export const skills = {
     "CSS",
     "WPF",
   ],
+  gameDevelopment: [
+      "Unity",
+      "Godot",
+  ],
   databaseAndStorage: [
     "mySQL",
     "PostgreSQL",
@@ -88,6 +94,7 @@ export const skills = {
     "Git",
     "Github",
     "Docker",
+    "Vercel",
   ],
 };
 
@@ -122,7 +129,7 @@ export const awards = [
     issuer: "Cisco Academy",
     date: "Avril 2025",
     type: "International",
-    file: "/attestation_secnum.pdf",
+    file : "/attestation_cisco.pdf",
   },
   {
     name: "PIX",

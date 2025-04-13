@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "@/lib/data";
+import {projects, skills} from "@/lib/data";
 import {
   CardContent,
   CardDescription,
@@ -22,7 +22,7 @@ export default function ProjectsSection() {
           </h2>
         </MotionWrapper>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <MotionWrapper key={project.title} delay={index * 0.2}>
               <GlassCard className="group overflow-hidden dark:border-purple-500/10 h-full flex flex-col">
@@ -64,6 +64,20 @@ export default function ProjectsSection() {
             </MotionWrapper>
           ))}
         </div>
+
+        <motion.div>
+          <GlassCard className="p-4">
+            <motion.a
+                href="/fiche_realisation_BTS_SIO_2025.pdf"
+                download
+                className="ml-4 flex items-center text-sm text-muted-foreground hover:text-purple-500 transition-colors group/link"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+            >
+              📄 Télécharger ma fiche de réalisation
+            </motion.a>
+          </GlassCard>
+        </motion.div>
       </div>
     </section>
   );

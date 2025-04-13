@@ -153,16 +153,16 @@ export const techWatchDetails = [
   {
     title: "Qu'est-ce qu'une veille technologique ?",
     content:
-        "La veille technologique consiste à surveiller les évolutions, innovations et tendances dans le domaine des technologies afin de rester informé et compétitif.",
+        "La veille technologique est un processus systématique de surveillance, de collecte, d'analyse et de diffusion des informations relatives aux avancées technologiques, aux innovations et aux tendances dans un domaine spécifique.",
   },
   {
-    title: "Mes sujets de veille",
+    title: "Mon sujet de veille : Les moteurs de jeux",
     content:
-        "Je m'intéresse à l'intelligence artificielle, aux frameworks modernes comme Next.js, à la sécurité informatique, aux tendances front-end, et aux outils DevOps.",
+        "Les moteurs de jeux sont au cœur du développement de jeux vidéo modernes. Ils permettent de simplifier et d'accélérer le processus de création en fournissant des outils et des fonctionnalités prêtes à l'emploi, comme le rendu graphique, la gestion de la physique, l'intelligence artificielle, et bien plus encore.",
   },
   {
     title: "Comment j'effectue ma veille",
     content:
-        "J'utilise des outils comme Feedly, Twitter, et des newsletters spécialisées. Je participe également à des conférences et webinaires pour échanger avec des experts.",
+        "J'ai utilisé Google Alerts pour recevoir des notifications sur des sujets spécifiques et je consultais régulièrement des sites tels que Gamasutra ou Game Developer, ainsi que les forums communautaires tels que le Reddit r/gamedev et le serveur discord Game Dev League.",
   },
 ];

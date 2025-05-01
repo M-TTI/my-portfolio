@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Martin Bonetti",
-  title: "Game Developer",
+  title: "Developer C#",
   location: "Lyon - France",
   email: "martin.bonetti.dev@gmail.com",
   github: "https://github.com/M-TTI",

@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "martin.bonetti.dev@gmail.com",
   github: "https://github.com/M-TTI",
   linkedin: "https://www.linkedin.com/in/martin-bonetti-240b34290/",
-  yapping: "Étudiant en BTS SIO option SLAM (Solutions Logicielles et Applications Métiers), et fan d'informatique et de jeux vidéo, Je me passionne pour le développement de jeux, et suis également très intéressé par les rouages du back-end. Mon objectif ? Devenir Game Developer en alliant créativité et expertise technique. À travers ce portfolio, découvrez mes projets, mes compétences et ma soif d'apprendre, entre lignes de code et univers virtuels. Bienvenue dans mon parcours !",
+  yapping: "Étudiant en BTS SIO option SLAM (Solutions Logicielles et Applications Métiers), et fan d'informatique et de jeux vidéo, Je me passionne pour le développement de jeux, et suis également très intéressé par les rouages du back-end. Mon objectif ? Devenir Developer  FullStack en alliant créativité et expertise technique. À travers ce portfolio, découvrez mes projets, mes compétences et ma soif d'apprendre, entre lignes de code et univers virtuels. Bienvenue dans mon parcours !",
 };
 
 export const workExperience = [

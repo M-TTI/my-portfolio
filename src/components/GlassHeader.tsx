@@ -118,7 +118,6 @@ export default function GlassHeader() {
     { id: "projets", label: "🚀 Projets" },
     { id: "certifications", label: "🏆 Certifications" },
     { id: "parcours", label: "🎓 Parcours" },
-    { id: "veille-technologique", label: "🌐 Veille Technologique" },
   ];
 
   return (
